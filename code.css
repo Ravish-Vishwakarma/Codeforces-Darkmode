@@ -1,0 +1,257 @@
+/* ==========================================================================
+   Codeforce darkmode — code colouring
+   Part 1: prettyprint (submission / statement code blocks)
+   Part 2: Ace editor theme for the source code box
+   ========================================================================== */
+
+/* ---------------------------------------------------------------- part 1 */
+
+pre.prettyprint {
+	display: block !important;
+	background-color: #1b1d24 !important;
+}
+
+.prettyprint .nocode {
+	background-color: transparent !important;
+	color: #d7dce2 !important;
+}
+
+.prettyprint .str {
+	color: #9ece6a !important;
+}
+
+.prettyprint .kwd {
+	color: #bb9af7 !important;
+	font-weight: bold !important;
+}
+
+.prettyprint .com {
+	color: #565f89 !important;
+	font-style: italic !important;
+}
+
+.prettyprint .typ {
+	color: #e0af68 !important;
+}
+
+.prettyprint .lit {
+	color: #ff9e64 !important;
+}
+
+.prettyprint .pun {
+	color: #d7dce2 !important;
+}
+
+.prettyprint .pln {
+	color: #d7dce2 !important;
+}
+
+.prettyprint .tag {
+	color: #f7768e !important;
+	font-weight: bold !important;
+}
+
+.prettyprint .atn {
+	color: #e0af68 !important;
+}
+
+.prettyprint .atv {
+	color: #9ece6a !important;
+}
+
+.prettyprint .dec {
+	color: #ff9e64 !important;
+}
+
+ol.linenums {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	color: #565f89 !important;
+}
+
+li.L0,
+li.L1,
+li.L2,
+li.L3,
+li.L5,
+li.L6,
+li.L7,
+li.L8 {
+	list-style-type: none !important;
+}
+
+@media print {
+	pre.prettyprint {
+		background-color: transparent !important;
+	}
+	.prettyprint .str,
+	code .str,
+	.prettyprint .atv,
+	code .atv {
+		color: #060 !important;
+	}
+	.prettyprint .kwd,
+	code .kwd,
+	.prettyprint .tag,
+	code .tag {
+		color: #006 !important;
+		font-weight: bold !important;
+	}
+	.prettyprint .com,
+	code .com {
+		color: #600 !important;
+		font-style: italic !important;
+	}
+	.prettyprint .typ,
+	code .typ,
+	.prettyprint .atn,
+	code .atn {
+		color: #404 !important;
+	}
+	.prettyprint .lit,
+	code .lit {
+		color: #044 !important;
+	}
+	.prettyprint .pun,
+	code .pun {
+		color: #440 !important;
+	}
+	.prettyprint .pln,
+	code .pln {
+		color: #000 !important;
+	}
+}
+
+/* ---------------------------------------------------------------- part 2 */
+
+.ace-darkmode {
+	background-color: #1b1d24;
+	color: #d7dce2;
+}
+
+.ace-darkmode .ace_gutter {
+	background: #16181e;
+	color: #565f89;
+}
+
+.ace-darkmode .ace_print-margin {
+	width: 1px;
+	background: #2a2f3a;
+}
+
+.ace-darkmode .ace_cursor {
+	color: #7aa2f7;
+}
+
+.ace-darkmode.ace_multiselect .ace_selection.ace_start {
+	box-shadow: 0 0 3px 0 #1b1d24;
+}
+
+.ace-darkmode .ace_marker-layer .ace_selection {
+	background: #2f3a52;
+}
+
+.ace-darkmode .ace_marker-layer .ace_step {
+	background: #4d4a2a;
+}
+
+.ace-darkmode .ace_marker-layer .ace_bracket {
+	margin: -1px 0 0 -1px;
+	border: 1px solid #3b4261;
+}
+
+.ace-darkmode .ace_marker-layer .ace_active-line {
+	background: #232733;
+}
+
+.ace-darkmode .ace_gutter-active-line {
+	background-color: #232733;
+}
+
+.ace-darkmode .ace_marker-layer .ace_selected-word {
+	border: 1px solid #2f3a52;
+}
+
+.ace-darkmode .ace_invisible {
+	color: #3b4261;
+}
+
+.ace-darkmode .ace_keyword,
+.ace-darkmode .ace_meta,
+.ace-darkmode .ace_storage {
+	color: #bb9af7;
+}
+
+.ace-darkmode .ace_constant,
+.ace-darkmode .ace_constant.ace_character,
+.ace-darkmode .ace_constant.ace_character.ace_escape,
+.ace-darkmode .ace_constant.ace_other {
+	color: #ff9e64;
+}
+
+.ace-darkmode .ace_invalid {
+	color: #f7768e;
+	background-color: #2a1a1f;
+}
+
+.ace-darkmode .ace_invalid.ace_deprecated {
+	color: #e0af68;
+	background-color: #2a1a1f;
+}
+
+.ace-darkmode .ace_fold {
+	background-color: #7aa2f7;
+	border-color: #d7dce2;
+}
+
+.ace-darkmode .ace_comment {
+	color: #565f89;
+	font-style: italic;
+}
+
+.ace-darkmode .ace_variable {
+	color: #d7dce2;
+}
+
+.ace-darkmode .ace_variable.ace_parameter {
+	color: #e0af68;
+}
+
+.ace-darkmode .ace_string {
+	color: #9ece6a;
+}
+
+.ace-darkmode .ace_support.ace_function,
+.ace-darkmode .ace_entity.ace_name.ace_function {
+	color: #7dcfff;
+}
+
+.ace-darkmode .ace_entity.ace_name.ace_tag,
+.ace-darkmode .ace_entity.ace_other.ace_attribute-name,
+.ace-darkmode .ace_support.ace_type,
+.ace-darkmode .ace_support.ace_class {
+	color: #e0af68;
+}
+
+.ace-darkmode .ace_operator {
+	color: #89ddff;
+}
+
+.ace-darkmode .ace_meta.ace_tag {
+	color: #f7768e;
+}
+
+.ace-darkmode .ace_punctuation,
+.ace-darkmode .ace_paren {
+	color: #d7dce2;
+}
+
+.ace-darkmode .ace_gutter-cell.ace_error {
+	background-image: none;
+	color: #f7768e;
+}
+
+.ace-darkmode .ace_gutter-cell.ace_warning {
+	background-image: none;
+	color: #e0af68;
+}
