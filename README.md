@@ -1,4 +1,24 @@
-# Codeforce darkmode — Chrome extension
+# Codeforce darkmode
+
+<p align="center">
+  <img src="icons/icon128.png" alt="Codeforce darkmode extension icon" width="96">
+  <br>
+  <strong>A clean, fully offline dark theme for Codeforces.</strong>
+  <br><br>
+  <a href="https://github.com/Ravish-Vishwakarma/Codeforces-Darkmode">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/Ravish-Vishwakarma/Codeforces-Darkmode?style=for-the-badge">
+  </a>
+  <img alt="Version 1.0.0" src="https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge">
+  <img alt="Chrome Manifest V3" src="https://img.shields.io/badge/Chrome-Manifest%20V3-green?style=for-the-badge">
+</p>
+
+## Preview
+
+This is Codeforces with the extension applied:
+
+![Codeforces page with the Codeforce darkmode extension applied](imgs/image.png)
+
+## About
 
 A clean dark theme for Codeforces, packaged as a fully offline Chrome
 (Manifest V3) extension.
