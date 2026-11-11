@@ -3,11 +3,13 @@
 A clean dark theme for Codeforces, packaged as a fully offline Chrome
 (Manifest V3) extension.
 
+Source: [github.com/Ravish-Vishwakarma/Codeforces-Darkmode](https://github.com/Ravish-Vishwakarma/Codeforces-Darkmode)
+
 There is **no update URL, no remote CSS, no remote images, no analytics and no
 network access of any kind**. Every file it needs is in this folder:
 
 ```
-chrome-extension/
+.
 ├── manifest.json
 ├── content.js     # theme logic that has to run in JavaScript
 ├── theme.css      # page styling
@@ -30,10 +32,11 @@ chrome-extension/
 
 ## Install (unpacked)
 
-1. Open `chrome://extensions` (or `edge://extensions`).
-2. Turn on **Developer mode** (top-right).
-3. Click **Load unpacked** and select this `chrome-extension` folder.
-4. Open <https://codeforces.com> — it should already be dark.
+1. Clone this repository (or download it as a ZIP and extract it).
+2. Open `chrome://extensions` (or `edge://extensions`).
+3. Turn on **Developer mode** (top-right).
+4. Click **Load unpacked** and select the repository folder.
+5. Open <https://codeforces.com> — it should already be dark.
 
 Because it is loaded unpacked, the browser never updates it on its own. To
 update it, replace the files and press the reload icon on the extension card.
